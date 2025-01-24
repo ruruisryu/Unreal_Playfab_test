@@ -12,5 +12,6 @@ public class QPlayfabTest : ModuleRules
 		
 		// Playfab과 관련된 모듈 추가
 		PrivateDependencyModuleNames.AddRange(new string[] { "PlayFab", "PlayFabCpp", "PlayFabCommon" });
+		PublicIncludePaths.AddRange(new string[]{"QPlayfabTest"});
 	}
 }
