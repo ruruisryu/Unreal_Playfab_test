@@ -4,13 +4,6 @@
 ### C++ ###
 # Prerequisites
 *.d
-###########################################
-# 에셋 파일 무시
-Content/Art/**/*.uasset
-Content/Art/**/*.umap
-
-###########################################
-
 
 # Compiled Object files
 *.slo
